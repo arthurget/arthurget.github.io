@@ -1691,7 +1691,7 @@
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.0em;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
@@ -1723,8 +1723,8 @@
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
-		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		text-transform: normal;
+		letter-spacing: 0.15em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1736,7 +1736,7 @@
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: 1.07em;
 	}
 
 	h4 {
@@ -2851,9 +2851,10 @@
 		}
 
 /* Header */
+/* THIS IS WHERE YOU CREATE WHITE SPACE */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
