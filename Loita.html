@@ -55,8 +55,9 @@
  
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
     
-    <style>
+	<style>
         body { margin:0; padding:0; }
         #map {  top:0; bottom:0; width:100%; height:100%}
 		
@@ -87,10 +88,13 @@ var map = new mapboxgl.Map({
 	
 });
 
-
-
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxg1.NavigationControl());
 
 </script>
+
+<!-- <img src="https://raw.githubusercontent.com/arthurget/arthurget.github.io/master/photos/Photo10_8.jpg" alt="Mangroves" style="width:787px;height:528px;">
+-->
 
 
 </body>
