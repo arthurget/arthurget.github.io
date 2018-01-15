@@ -1693,7 +1693,7 @@
 	h1 {
 		font-size: 2.0em;
 		font-weight: 700;
-		line-height: 0.5;
+		line-height: 0;
 		margin: 0 0 1em 0;
 		letter-spacing: -0.035em;
 	}
