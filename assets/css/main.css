@@ -1688,14 +1688,14 @@
 
 	p {
 		margin: 0 0 2em 0;
-		line-height: 0.2;
+		line-height: 1;
 	}
 
 	h1 {
 		font-size: 2.0em;
 		font-weight: 700;
-		line-height: 0.2;
-		margin: 0 0 1em 0;
+		line-height: 0;
+		margin: 0 0 1.5em 0;
 		letter-spacing: -0.035em;
 	}
 
